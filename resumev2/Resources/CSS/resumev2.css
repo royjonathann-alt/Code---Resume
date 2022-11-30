@@ -1,0 +1,112 @@
+#sidebar {
+    width: 10%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: 999;
+    background-image: linear-gradient(#2a304b, #0f111a);
+    color: #fff;
+    transition: all 0.3s;
+}
+
+img{
+    box-shadow: 0 8px 16px 0 #515c88, 0 12px 40px 0 #515c88;
+    margin-top: 20%;
+    margin-left: 15%;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.components{
+    margin-top: 5%;
+    text-align: center;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: large;
+}
+
+li{
+    margin-top: 10%;
+}
+
+a{
+    text-decoration: none;
+    color: cadetblue;
+}
+
+.section1{
+    margin-left: 15%;
+    margin-top: 15%;
+    margin-bottom: 25%;
+    padding-right: 5%;
+}
+
+h1{    
+    font-size: 500%;
+}
+
+.btn{
+    font-size: 200%;
+}
+
+.section2{
+    margin-left: 15%;
+    margin-bottom: 25%;
+}
+
+.display-2{
+    margin-bottom: 5%;
+    
+}
+
+.job{
+    margin-bottom: 10%;
+    padding-right: 5%;
+}
+
+.date{
+    float: right;
+    color: cadetblue;
+    font-weight: lighter;
+}
+
+.company{
+    font-weight: lighter;
+    color: darkcyan;
+}
+
+.section3{
+    margin-left: 15%;
+    margin-bottom: 25%;  
+}
+
+.skills{
+    font-size: 150%;
+    font-weight: lighter;
+}
+
+.section4{
+    margin-left: 15%;
+    margin-top: 15%;
+    margin-bottom: 25%;
+    padding-right: 5%;
+}
+
+.card{
+    margin-right: 80%;
+    text-align: center;
+}
+
+.card-header{
+    background-color: #9bb7d0;
+    color: #2a304b ;
+}
+
+.card-footer{
+    background-color: #172531;
+    color: #6993b8;
+}
